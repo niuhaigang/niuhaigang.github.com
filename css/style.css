@@ -264,25 +264,20 @@ color:#000;
 	background-position:0px 0px;
 }
 .header-right ul li span.twit,.about-left ul li span.twit{
-	background-position:-34px 0px;
+	background-position:-35px 0px;
 }
 .header-right ul li span.drbl,.about-left ul li span.drbl{
-	background-position:-68px 0px;
+	background-position:-70px 0px;
 }
-.header-right ul li span.yt{
-	background-position:-102px 0px;
-}
+
 .header-right ul li span.fb:hover,.about-left ul li span.fb:hover{
-	background-position:0px -38px;
+	background-position:0px -39px;
 }
 .header-right ul li span.twit:hover,.about-left ul li span.twit:hover{
-	background-position:-34px -38px;
+	background-position:-35px -39px;
 }
 .header-right ul li span.drbl:hover,.about-left ul li span.drbl:hover{
-	background-position:-68px -38px;
-}
-.header-right ul li span.yt:hover{
-	background-position:-102px -38px;
+	background-position:-70px -39px;
 }
 .header-top{
 	padding-top: 4%;
@@ -359,7 +354,7 @@ color:#000;
 }
 .about-main h3 {
 	color: #fff;
-	font-size: 1.8em;
+	font-size: 2em;
 	letter-spacing: 2px;
 	font-weight: 700;
 	margin: 0;
@@ -804,7 +799,6 @@ color:#000;
 .quality-main p{
 	color:#222222;
 	font-size:20px;
-	letter-spacing:3px;
 	margin-top: 1.5em;
 }
 .quality-top-one span{
@@ -847,7 +841,6 @@ color:#000;
 .quality-bottom p {
 	color: #fff;
 	font-size: 16px;
-	letter-spacing: 3px;
 	margin-top: 1.7em;
 	font-weight: 100;
 }
@@ -1210,8 +1203,8 @@ color:#000;
 	list-style: none;
 	position: absolute;
 	top: 110%;
-	z-index: 999;
-	left: 40%;
+	z-index: 10;
+	left: 43%;
 	padding: 0;
 	margin: 0;
 	display: none;
@@ -1302,7 +1295,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .clients-btm-one p {
 	color: #e1e1e1;
-	font-size: 23px;
+	font-size: 18px;
 	font-weight: 400;
 	padding: 0px 25px;
 	margin-top: 10%;
@@ -1335,6 +1328,12 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .project-bottom {
 	top: 75%;
+}
+@media (max-width:1200px){
+.what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
+	font-size: 3em;
+	background: url(../images/hexa1.png) no-repeat 395px 0px;
+	padding: 1.08em 0px;
 }
 }
 @media (max-width:1024px){
@@ -1412,7 +1411,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	right: -1%;
 }
 .clients-btm-one p {
-	font-size: 21px;
+	font-size: 18px;
 	padding: 0px 40px;
 }
 .blog-top {
@@ -1434,6 +1433,19 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-size: 2em;
 }
 }
+@media (max-width:990px){
+.col-md-3.project-left {
+	width: 25%;
+	float: left;
+}
+.what-main h3, .blog-main h3, .price-main h3, .quality-main h3,
+ .touch-main h3, .clients-mian h3 {
+	font-size: 2.55em;
+	background: url(../images/hexa1.png) no-repeat 311px 0px;
+	padding: 30px 0px;
+	background-size: 90px;
+}
+}
 @media (max-width:768px){
 .header-top {
 	padding-top: 3%;
@@ -1452,7 +1464,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	min-height: 520px;
 }
 .about-main h3 {
-	font-size: 1.6em;
+	font-size: 1.8em;
 }
 .about-left img {
 	width: 25%;
@@ -1607,7 +1619,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .callbacks_tabs {
 	top: 111%;
-	left: 35%;
+	left: 38%;
 }
 .blog-top {
 	margin-top: 5%;
@@ -1677,7 +1689,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	min-height: 445px;
 }
 .about-main h3 {
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 .about-left img {
 	width: 22%;
@@ -1875,7 +1887,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .callbacks_tabs {
 	top:106%;
-	left: 36%;
+	left: 39%;
 }
 .clients-bottom-top {
 	margin-top: 2em;
@@ -1953,7 +1965,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	min-height: 350px;
 }
 .about-main h3 {
-	font-size: 1.35em;
+	font-size: 1.55em;
 }
 .about-left h4 {
 	font-size: 1.34em;
@@ -2108,7 +2120,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .callbacks_tabs {
 	top: 107%;
-	left: 34%;
+	left: 37%;
 }
 .blog-left span {
 	left: 46%;
@@ -2202,12 +2214,6 @@ ul.callbacks_tabs.callbacks2_tabs {
 .header-right ul li span.drbl:hover, .about-left ul li span.drbl:hover {
 	background-position: -52px -28px;
 }
-.header-right ul li span.yt {
-	background-position: -77px 0px;
-}
-.header-right ul li span.yt:hover{
-	background-position: -77px -28px;
-}
 .about-left ul li span.sap:hover {
 	background-position: -103px -28px;
 }
@@ -2295,7 +2301,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	min-height: 300px;
 }
 .about-main h3 {
-	font-size: 1.25em;
+	font-size: 1.45em;
 }
 .about-main {
 	margin-top: 10%;
@@ -2359,7 +2365,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	height: 46px;
 }
 .callbacks_tabs {
-	left: 30%;
+	left: 33%;
 }
 .callbacks_nav {
 	top: 37%;

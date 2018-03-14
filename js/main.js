@@ -53,6 +53,4 @@ $(document).ready(function() {
     // 返回顶部插件
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
-function notOpened(){
-	alert('暂不开放！')
-}
+
